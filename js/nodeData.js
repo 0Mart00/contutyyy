@@ -690,7 +690,137 @@ const fullData = {
                         "size": 7, 
                         "description": "A törvény előtti egyenlőség elve, amely az athéni demokrácia egyik legfontosabb alapköve volt." 
                       },
+        { 
+                        "id": "osztrakizmosz", 
+                        "name": "Osztrakizmosz", 
+                        "group": "Politika", 
+                        "level": 4, 
+                        "color": "#FFE082", 
+                        "size": 7, 
+                        "description": "Cserépszavazás; politikai intézmény a zsarnokság megelőzésére, amellyel a közösségre veszélyes személyeket száműzték." 
+                      },
+
+           
                       { 
+                        "id": "m1", 
+                        "name": "Mitológia", 
+                        "group": "Filozófia", 
+                        "level": 2, 
+                        "color": "#9C27B0", 
+                        "size": 12, 
+                        "description": "Az utak, a tolmácsolás és a hírnöki szolgálat istene. Ő köti össze a szférákat, segítve az információ áramlását és az isteni üzenetek emberi nyelvre történő lefordítását (hermeneutika)." 
+                      },
+                      { 
+                        "id": "hermeneutika-antik", 
+                        "name": "Hermeneutika", 
+                        "group": "Mitológia", 
+                        "level": 3, 
+                        "color": "#AB47BC", 
+                        "size": 10, 
+                        "description": "Az értelmezés tudománya; eredetileg az isteni üzenetek és jóslatok emberi nyelvre való átültetésének és magyarázatának művészete." 
+                      },
+                      { 
+                        "id": "mütosz-logosz", 
+                        "name": "Műtosz és Logosz", 
+                        "group": "Mitológia", 
+                        "level": 4, 
+                        "color": "#BA68C8", 
+                        "size": 8, 
+                        "description": "A világmagyarázat két útja: a képszerű, történetmondó mítosz és az észszerű, fogalmi bizonyításra épülő logosz átmenete." 
+                      },
+                      { 
+                        "id": "antropomorfizmus", 
+                        "name": "Antropomorfizmus", 
+                        "group": "Mitológia", 
+                        "level": 4, 
+                        "color": "#CE93D8", 
+                        "size": 8, 
+                        "description": "Az istenek emberi alakban, emberi tulajdonságokkal és érzelmekkel való felruházása a görög hitvilágban." 
+                      },
+                      { 
+                        "id": "hübrisz", 
+                        "name": "Hübrisz", 
+                        "group": "Mitológia", 
+                        "level": 4, 
+                        "color": "#E1BEE7", 
+                        "size": 8, 
+                        "description": "A gőg és az istenek elleni elbizakodottság, amely a görög tragédiák szerint elkerülhetetlen bukást és isteni büntetést von maga után." 
+                      },
+                      { 
+                        "id": "teogonia", 
+                        "name": "Teogónia", 
+                        "group": "Mitológia", 
+                        "level": 4, 
+                        "color": "#F3E5F5", 
+                        "size": 7, 
+                        "description": "Az istenek születésének és a világrend kialakulásának genealógiai leírása, ahogy azt Hésziodosz megörökítette." 
+                      },
+                      { 
+                        "id": "h1", 
+                        "name": "Történelem", 
+                        "group": "Filozófia", 
+                        "level": 2, 
+                        "color": "#4CAF50", 
+                        "size": 12, 
+                        "description": "A történetírás múzsája. Feladata az események kauzális láncolatának rögzítése és a hősök tetteinek megőrzése az utókor számára, biztosítva a kollektív emlékezet folytonosságát." 
+                      },
+                      { 
+                        "id": "hisztoria", 
+                        "name": "Hisztoria", 
+                        "group": "Történelem", 
+                        "level": 3, 
+                        "color": "#66BB6A", 
+                        "size": 10, 
+                        "description": "Eredeti jelentésében 'kutatás' vagy 'tudakozódás'; a múlt eseményeinek tanúvallomásokon és vizsgálaton alapuló rögzítése." 
+                      },
+                      { 
+                        "id": "kauzalitas-torteneti", 
+                        "name": "Történeti kauzalitás", 
+                        "group": "Történelem", 
+                        "level": 4, 
+                        "color": "#81C784", 
+                        "size": 8, 
+                        "description": "Thuküdidész módszere: az események mögött meghúzódó valós okok és törvényszerűségek feltárása az isteni beavatkozás kizárásával." 
+                      },
+                      { 
+                        "id": "genealogia", 
+                        "name": "Genealógia", 
+                        "group": "Történelem", 
+                        "level": 4, 
+                        "color": "#A5D6A7", 
+                        "size": 8, 
+                        "description": "Származástan; a nemzettségek és hősök eredetének kutatása, amely összeköti a múltat a jelennel." 
+                      },
+                      { 
+                        "id": "anakükloszisz", 
+                        "name": "Anaküklószisz", 
+                        "group": "Történelem", 
+                        "level": 4, 
+                        "color": "#C8E6C9", 
+                        "size": 8, 
+                        "description": "Polübiosz elmélete a történelmi körforgásról, amelyben az államformák szükségszerűen váltják egymást." 
+                      },
+                      { 
+                        "id": "emlekezet-politikaja", 
+                        "name": "Kollektív emlékezet", 
+                        "group": "Történelem", 
+                        "level": 4, 
+                        "color": "#E8F5E9", 
+                        "size": 7, 
+                        "description": "A közösség önképét meghatározó múltbeli események és hősök megőrzésének folyamata az utókor számára." 
+                      },
+                      { 
+                        "id": "n1", 
+                        "name": "Nyelv", 
+                        "group": "Filozófia", 
+                        "level": 2, 
+                        "color": "#E91E63", 
+                        "size": 12, 
+                        "description": "A phóné (hang) és a logosz (értelem) felbonthatatlan egysége. Ez a struktúra teszi lehetővé, hogy a mitikus narratívák és elvont fogalmak érthető formában öröklődjenek generációkon át, hidat képezve a gondolat és a valóság között." 
+                      },
+
+
+        { 
                         "id": "osztrakizmosz", 
                         "name": "Osztrakizmosz", 
                         "group": "Politika", 
@@ -1218,7 +1348,53 @@ const fullData = {
                       "color": "#00E5FF",
                       "size": 8,
                       "description": "Az Egység (határ) és a Kettősség (határtalan) ontológiai elvei. Ezek interakciójából születik minden létező numerikus struktúrája."
-                    }
+                    },
+
+  {
+    "id": "fM-szam",
+    "name": "A Számok ontológiája",
+    "group": "Filozófia",
+    "level": 3,
+    "color": "#00E5FF",
+    "size": 10,
+    "description": "A pitagoreus gondolkodás alapköve, amely szerint a számok nem csupán mennyiségek, hanem a valóság legmélyebb lényegét alkotó princípiumok."
+  },
+  {
+    "id": "tetraktüsz",
+    "name": "Tetraktüsz",
+    "group": "Filozófia",
+    "level": 4,
+    "color": "",
+    "size": 10,
+    "description": "A szent tízest alkotó első négy szám (1+2+3+4) háromszög alakú elrendezése, amely a mindenség teljességét és a zenei harmóniák alaparányait szimbolizálja."
+  },
+  {
+    "id": "kozmosz-rend",
+    "name": "Kozmosz (Rend)",
+    "group": "Filozófia",
+    "level": 4,
+    "color": "",
+    "size": 10,
+    "description": "A világmindenség mint rendezett egész. A görög szemléletben a káoszból a matematikai arányok és geometriai törvényszerűségek teremtenek átlátható, harmonikus struktúrát."
+  },
+  {
+    "id": "szferak-harmoniaja",
+    "name": "Szférák harmóniája",
+    "group": "Filozófia",
+    "level": 4,
+    "color": "",
+    "size": 10,
+    "description": "Pitagoreus elmélet, mely szerint az égitestek mozgása közben keletkező hangok matematikai arányai tökéletes zenei összhangot alkotnak, tükrözve a numerikus világrendet."
+  },
+  {
+    "id": "monasz-duasz",
+    "name": "Monasz és Duasz",
+    "group": "Filozófia",
+    "level": 4,
+    "color": "",
+    "size": 10,
+    "description": "Az Egy (határolt) és a Kettősség (határtalan) kettőse. A monasz az egységet és a stabilitást, a duasz a változást és a sokféleséget képviseli a létezés alapjaiban."
+  }
 
                   ],
         
@@ -1295,13 +1471,11 @@ const fullData = {
       { "source": "polisz", "target": "demokracia-antik" },
 
       { "source": "hipokrateszi-orvos", "target": "negy-testnedv" },
-
-      { "source": "hipokrateszi-orvos", "target": "prognózis" },
+        { "source": "hipokrateszi-orvos", "target": "prognózis" },
       { "source": "hipokrateszi-orvos", "target": "dietetika-antik" },
       { "source": "negy-testnedv", "target": "phüszisz-gyogyitas" },
       { "source": "prognózis", "target": "logosz-tudomany" },
-
-      { "source": "polisz", "target": "ar technologie" },
+    { "source": "polisz", "target": "ar technologie" },
 
       { "source": "ar technologie", "target": "eunomia" },
 
@@ -1312,13 +1486,13 @@ const fullData = {
       { "source": "ar technologie", "target": "nomosz" },
 
       { "source": "eunomia", "target": "fM-szam" },
-      { "source": "fM-szam", "target": "tetraktüsz" },
+        { "source": "fM-szam", "target": "tetraktüsz" },
     { "source": "fM-szam", "target": "kozmosz-rend" },
     { "source": "fM-szam", "target": "szferak-harmoniaja" },
     { "source": "fM-szam", "target": "monasz-duasz" },
-/*
 
-    { "source": "tetraktüsz", "target": "matematika-püthagorasz" },
+
+ { "source": "tetraktüsz", "target": "matematika-püthagorasz" },
     { "source": "kozmosz-rend", "target": "geocentrizmus" },
 
       { "source": "polisz", "target": "nomosz" },
@@ -1329,8 +1503,73 @@ const fullData = {
 
     { "source": "fS3", "target": "polisz" },
     { "source": "nomosz", "target": "izonomia" },
-*/
-    
-  
+
+   { "source": "m1", "target": "hermeneutika-antik" },
+  { "source": "m1", "target": "mütosz-logosz" },
+  { "source": "m1", "target": "antropomorfizmus" },
+  { "source": "m1", "target": "hübrisz" },
+  { "source": "m1", "target": "teogonia" },
+  { "source": "h1", "target": "hisztoria" },
+  { "source": "h1", "target": "kauzalitas-torteneti" },
+  { "source": "hisztoria", "target": "kauzalitas-torteneti" },
+  { "source": "izonomia", "target": "osztrakizmosz" },
+ 
+  { "source": "m1", "target": "hermeneutika-antik" },
+  { "source": "m1", "target": "mütosz-logosz" },
+  { "source": "m1", "target": "antropomorfizmus" },
+  { "source": "m1", "target": "hübrisz" },
+  { "source": "m1", "target": "teogonia" },
+  { "source": "h1", "target": "hisztoria" },
+  { "source": "h1", "target": "kauzalitas-torteneti" },
+  { "source": "hisztoria", "target": "kauzalitas-torteneti" },
+  { "source": "izonomia", "target": "osztrakizmosz" },
+
+{ "source": "m1", "target": "hermeneutika-antik" },
+  { "source": "m1", "target": "mütosz-logosz" },
+  { "source": "m1", "target": "antropomorfizmus" },
+  { "source": "m1", "target": "hübrisz" },
+  { "source": "m1", "target": "teogonia" },
+  { "source": "h1", "target": "hisztoria" },
+  { "source": "h1", "target": "kauzalitas-torteneti" },
+  { "source": "h1", "target": "genealogia" },
+  { "source": "h1", "target": "anakükloszisz" },
+  { "source": "h1", "target": "emlekezet-politikaja" },
+  { "source": "n1", "target": "logosz-nyelv" },
+  { "source": "n1", "target": "onomatoteia" },
+  { "source": "n1", "target": "rhetorike-tekne" },
+  { "source": "n1", "target": "dialektika-antik" },
+  { "source": "n1", "target": "etimologia-antik" },
+  { "source": "v1", "target": "euszebeia" },
+  { "source": "hisztoria", "target": "kauzalitas-torteneti" },
+  { "source": "hisztoria", "target": "genealogia" },
+  { "source": "logosz-nyelv", "target": "dialektika-antik" },
+  { "source": "logosz-nyelv", "target": "rhetorike-tekne" },
+
+    { "source": "v1", "target": "euszebeia" },
+  { "source": "v1", "target": "orthopraxie" },
+  { "source": "v1", "target": "müsztérion" },
+  { "source": "v1", "target": "mantiké" },
+  { "source": "v1", "target": "templom-szentely" },
+  { "source": "tt1", "target": "phüszisz-alap" },
+  { "source": "tt1", "target": "arkhé-elemek" },
+  { "source": "tt1", "target": "kozmosz-rend" },
+  { "source": "tt1", "target": "teleologia-antik" },
+  { "source": "tt1", "target": "zoon-bion" },
+  { "source": "s1", "target": "agon" },
+  { "source": "s1", "target": "areté-sport" },
+  { "source": "s1", "target": "gymnasion" },
+  { "source": "s1", "target": "kalokagathia" },
+  { "source": "s1", "target": "olümpia-szent-beke" },
+  { "source": "ne1", "target": "akropolisz" },
+  { "source": "ne1", "target": "agora" },
+  { "source": "ne1", "target": "delphoi-josda" },
+  { "source": "ne1", "target": "theatron" },
+  { "source": "ne1", "target": "pantheon-ideal" },
+  { "source": "euszebeia", "target": "orthopraxie" },
+  { "source": "mantiké", "target": "delphoi-josda" },
+  { "source": "gymnasion", "target": "kalokagathia" },
+  { "source": "theatron", "target": "agon" }
+
+
   ]
 };

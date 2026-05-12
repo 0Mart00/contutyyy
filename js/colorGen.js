@@ -4,7 +4,6 @@ function generateGray() {
     return `rgb(${v}, ${v}, ${v})`;
   }
   
-console.log(generateGray()); // Pl: "rgb(128, 128, 128)"
 
   function generateGrayBlue() {
     const base = Math.floor(Math.random() * 150) + 50; // Közepes tónus alap
@@ -15,12 +14,10 @@ console.log(generateGray()); // Pl: "rgb(128, 128, 128)"
     return `rgb(${r}, ${g}, ${b})`;
 }
 
-console.log(generateGrayBlue()); // Pl: "rgb(100, 110, 140)"
 
 const getHexGray = () => {
     const val = Math.floor(Math.random() * 256).toString(16).padStart(2, '0');
     return `#${val}${val}${val}`;
   };
   
-  console.log(getHexGray());
   

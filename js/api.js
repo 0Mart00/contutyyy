@@ -14,7 +14,6 @@ async function fetchAndDisplayRandomQuote() {
             fetch(`${baseUrl}/api/quotes`),
             fetch(`${baseUrl}/api/philosophers`)
         ]);
-        console.log("sd");
         const quotes = await qRes.json();
         const philosophers = await pRes.json();
 

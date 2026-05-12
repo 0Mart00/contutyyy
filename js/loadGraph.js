@@ -1,12 +1,18 @@
+// Data helyett használd azt, ami tényleg létezik (pl. fullData)
+const validNodes = fullData.nodes.filter(n => n?.level <= 1); 
+const validNodeIds = new Set(validNodes.map(n => String(n.id)));
 
 const initialData = {
-    nodes: fullData.nodes.filter(n => n.level <= 1),
-    links: fullData.links.filter(l => {
-      const s = fullData.nodes.find(n => n.id === l.source);
-      const t = fullData.nodes.find(n => n.id === l.target);
-      return s.level <= 1 && t.level <= 1;
-    })
-  };
+  nodes: validNodes,
+  links: fullData.links.filter(l => {
+    // Kinyerjük az ID-t, akár objektum, akár primitív
+    const sourceId = String(l.source?.id ?? l.source);
+    const targetId = String(l.target?.id ?? l.target);
+    
+    return validNodeIds.has(sourceId) && validNodeIds.has(targetId);
+  })
+};
+
 
   const Graph = ForceGraph3D()(document.getElementById('3d-graph'))
     .graphData(initialData)
